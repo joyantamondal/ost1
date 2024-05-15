@@ -1,0 +1,111 @@
+/* Body Section Start */
+.bodysection {
+    margin-top: 10px;
+}
+
+/* Body Section End */
+
+/* Task Title Start */
+.tasktitle {
+    text-align: center;
+    padding-top: 20px;
+}
+/* Task Title End */
+
+/* Six Button Section Start  */
+.sixbutton {
+    text-align: center;
+}
+
+/* btn 1 */
+.sixbutton .btn1 {
+    border: 2px solid red;
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* btn 2 */
+.sixbutton .btn2 {
+ border-style: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.sixbutton .btn2:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+/* btn 3 */
+.sixbutton .btn3 {
+    border-style: none;
+       padding: 10px 20px;
+       border-radius: 10px;
+       background-color: rgb(21, 60, 230);
+       color: white;
+   }
+   .sixbutton .btn3:hover {
+    background-color: rgb(72, 154, 221);
+    padding: 7px 16px;
+   }
+
+   /* btn 4 */
+.sixbutton .btn4 {
+    border-style: none;
+       padding: 10px 20px;
+       border-radius: 10px;
+       background-color: maroon;
+       color: white;
+   }
+   .sixbutton .btn4:hover {
+    border: 2px solid yellowgreen;
+    background-color: rgb(238, 22, 22);
+    padding: 12px 18px;
+
+   }
+
+      /* btn 5 */
+.sixbutton .btn5 {
+    border-style: none;
+       padding: 10px 20px;
+       border-radius: 5px;
+       background-color:rgb(240, 71, 240);
+       color: white;
+   }
+   .sixbutton .btn5:hover {
+   
+    box-shadow: 0 12px 16px 0 rgba(235, 46, 140, 0.24),0 17px 50px 0 rgba(226, 6, 160, 0.19);
+
+   }
+
+         /* btn 6 */
+.sixbutton .btn6 {
+    border-style: none;
+       padding: 10px 20px;
+       border-radius: 20px;
+       color: black;
+   }
+   .sixbutton:hover .btn6 {
+   
+    padding: 10px 26px;
+    font-size: 22px;
+
+   }
+
+/* Six Button Section End  */
+
+/* P Text Red Start */
+.ptextred .tred{
+    color: red;
+}
+
+/* P Text Red end */
+/* h1 tag background color start   */
+.htag .htagbackground{
+background-color: aquamarine;
+color: rgb(238, 22, 22);
+}
+/* h1 tag background color end    */

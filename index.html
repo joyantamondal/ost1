@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    
+<body>
+    <div class="bodysection">
+<h5 class="tasktitle">Task 1- Basic Structure Setup </h5>
+<h5 class="tasktitle">Task 2- Create 6 Button </h5>
+<section class="sixbutton">
+<Button class="btn1">Button 1</Button>
+<Button class="btn2">Button 2</Button>
+<Button class="btn3">Button 3</Button>
+<Button class="btn4">Button 4</Button>
+<Button class="btn5">Button 5</Button>
+<Button class="btn6">Button 6</Button>
+</section>
+</div>
+
+<h5 class="tasktitle">Task 3- P Text Color </h5>
+<section class="ptextred">
+    <p class="tred">১ বারই কোর্স কিনুন। ফ্রন্টএন্ড ওয়েব ডেভেলপমেন্ট এবং ব্যাকেন্ড ওয়েব ডেভেলপমেন্ট - ২ টা ক্যারিয়ার ট্র্যাকের দরজাই ওপেন রাখুন। কারন এক্সেস তো থাকবে লাইফটাইমই! আর সাথে ৩ টা জিনিস রাখবেন- ল্যাপটপ বা কম্পিউটার, ইন্টারনেট কানেকশন ও শেখার অদম্য ইচ্ছা। বিজয় আপনারই!</p>
+    </section>
+
+<h5 class="tasktitle">Task 4- h1 tag background color </h5>
+<section class="htag">
+    <h1 class="htagbackground">কি কি পাচ্ছেন লাইভ কোর্সে <br>
+
+        দেখে নিন কি কি পাচ্ছেন ওস্তাদের লাইভ কোর্সে জয়েন করলে</h1>
+    </section>
+
+    <h5 class="tasktitle">Task 5- Navbar & Dropdown </h5>
+<section class="navdropdownmenu">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <h5 class="tasktitle">Task 6- Bootstrap Form  </h5>
+    <section class="bootstrapform">
+        <form class="needs-validation" novalidate>
+            <div class="form-row">
+              <div class="col-md-4 mb-3">
+                <label for="validationTooltip01">First name</label>
+                <input type="text" class="form-control-sm" id="validationTooltip01" placeholder="First name" value="Mark" required>
+                <div class="valid-tooltip">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationTooltip02">Last name</label>
+                <input type="text" class="form-control-sm" id="validationTooltip02" placeholder="Last name" value="Otto" required>
+                <div class="valid-tooltip">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationTooltipUsername">Username</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                  </div>
+                  <input type="text" class="form-control-sm" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
+                  <div class="invalid-tooltip">
+                    Please choose a unique and valid username.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationTooltip03">City</label>
+                <input type="text" class="form-control-sm" id="validationTooltip03" placeholder="City" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid city.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationTooltip04">State</label>
+                <input type="text" class="form-control-sm" id="validationTooltip04" placeholder="State" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid state.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationTooltip05">Zip</label>
+                <input type="text" class="form-control-sm" id="validationTooltip05" placeholder="Zip" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid zip.
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </form>
+        </section>
+        <h5 class="tasktitle">Task 6- h2 tag reverse  </h5>
+        <section class="h2reverse ">
+            <div class=" d-flex flex-row-reverse">
+                <h2>1</h2>
+            <h2>2</h2>
+            <h2>3</h2>
+            </div>
+
+        </section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
